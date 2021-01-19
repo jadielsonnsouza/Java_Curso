@@ -25,7 +25,7 @@ public class VetorComNumerosAleatorios {
             if(vetorNumerosAleatorios[i] > numeroDeEntrada){
 
                 contador++;
-                System.out.println("vetorNumerosAleatorios[" + i + "] = " + vetorNumerosAleatorios[i] + " <---- " + contador + " maior");
+                System.out.println("vetorNumerosAleatorios[" + i + "] = " + vetorNumerosAleatorios[i] + " <---- " + contador + "'   1 maior");
 
             } else {
                 System.out.println("vetorNumerosAleatorios[" + i + "] = " + vetorNumerosAleatorios[i]);
