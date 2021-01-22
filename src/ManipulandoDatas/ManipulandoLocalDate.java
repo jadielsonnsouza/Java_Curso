@@ -15,6 +15,6 @@ public class ManipulandoLocalDate {
         System.out.println("Menos 1 ano: " + dataManipulacao.minusYears(1));
         System.out.println("Menos 1 mês: " + dataManipulacao.minusMonths(1));
         System.out.println("Menos 3 dias: " + dataManipulacao.minusDays(3));
-        
+
     }
 }
