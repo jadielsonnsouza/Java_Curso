@@ -16,7 +16,7 @@ public class PassandoMatrizesParaMetodos {
     public static void mostrarMatriz(String s, int m[][]){
         int i, j, nl, nc;
 
-        System.out.printf("%s\n", s);
+        System.out.printf("%s\n ", s);
         System.out.printf("-------------------\n");
 
         nl = m.length; //determina o numero de linha da matriz
@@ -24,7 +24,7 @@ public class PassandoMatrizesParaMetodos {
         for(i = 0; i < nl; i++){
             System.out.printf("%dª linha: ", (i+1));
 
-            nc = m[i].length;
+            nc = m[i].length; // determina o número de colunas da i-ésima linha
 
             for(j = 0; j < nc; j++){
                 System.out.printf("%d ", m[i][j]);
