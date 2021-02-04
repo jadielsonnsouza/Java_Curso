@@ -22,7 +22,7 @@ public class ClonandoMatrizesComFor {
         for(int i = 0; i < b.length; i++){
             b[i] = a[i]; //copiado para array b tudo o que estiver em a
         }
-        
+
         //(3) Exibindo o conteúdo de 'b'
         for(int i = 0; i < b.length; i++){
             System.out.println("b["+ i + "] = " + b[i]);
