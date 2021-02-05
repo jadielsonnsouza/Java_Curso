@@ -20,7 +20,7 @@ public class CopiaArrayCopy {
         int b[] = new int[a.length]; //1º reserva um espaço para 'b'
 
         System.arraycopy(a,0, b, 0, a.length); //Copiando
-        
+
         for(int i = 0; i < b.length; i++){
             System.out.println("b[" + i + "] = " + b[i]);
         }
