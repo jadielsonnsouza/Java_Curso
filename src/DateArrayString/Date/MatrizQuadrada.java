@@ -1,4 +1,4 @@
-package DateArrayString;
+package DateArrayString.Date;
 
 public class MatrizQuadrada {
     public static void main(String[] args){

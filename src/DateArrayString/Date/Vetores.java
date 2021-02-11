@@ -1,4 +1,4 @@
-package DateArrayString;
+package DateArrayString.Date;
 
 public class Vetores {
     public static void main(String[] args){

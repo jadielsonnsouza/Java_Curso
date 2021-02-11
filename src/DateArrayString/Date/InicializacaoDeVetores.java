@@ -1,4 +1,4 @@
-package DateArrayString;
+package DateArrayString.Date;
 
 import java.util.Scanner;
 
