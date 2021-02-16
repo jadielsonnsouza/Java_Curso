@@ -8,5 +8,9 @@ public class MetodosClasseString2 {
         texto = texto.trim();
         System.out.println(texto);
 
+        texto = "001MARCOS PAULO      M19803112";
+        String procurado = "MARCOS";
+        System.out.println("\n" + texto.contains(procurado));
+
     }
 }
