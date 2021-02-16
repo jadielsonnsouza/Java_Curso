@@ -25,6 +25,6 @@ public class MétodosClasseString {
         System.out.println("\n" + texto4);
         texto4 = texto4.replace('a', 'o');
         System.out.println(texto4);
-        
+
     }
 }
