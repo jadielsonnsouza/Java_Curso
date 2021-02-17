@@ -35,5 +35,9 @@ public class MetodosClasseString2 {
         System.out.println(nome4.toLowerCase());
         System.out.println(nome3.toLowerCase());
 
+        //Método substring()
+        texto = "Universidade";
+        System.out.println("\n" + texto.substring(7));
+
     }
 }
