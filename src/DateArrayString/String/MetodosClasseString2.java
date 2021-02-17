@@ -20,7 +20,7 @@ public class MetodosClasseString2 {
         System.out.print("Utilizando trim() & length() = ");
         System.out.println(" Java ".trim().length());
 
-        //Método toUpperCasa()
+        //Método toUpperCase()
         String nome1 = "rodolfo rodrigues";
         String nome2 = "Alfredo Augusto";
         String nome3 = "JONNY DEBRUCE";
@@ -30,6 +30,10 @@ public class MetodosClasseString2 {
         System.out.println(nome2.toUpperCase());
         System.out.println(nome3.toUpperCase());
         System.out.println(nome4.toUpperCase());
+
+        //Metodo toLowerCase()
+        System.out.println(nome4.toLowerCase());
+        System.out.println(nome3.toLowerCase());
 
     }
 }
